@@ -274,8 +274,8 @@
               </OCR_RVCT3>
               <OCR_RVCT4>
                 <Type>1</Type>
-                <StartAddress>0x8004000</StartAddress>
-                <Size>0x3c000</Size>
+                <StartAddress>0x8000000</StartAddress>
+                <Size>0x40000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
                 <Type>1</Type>
@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F401xC</Define>
               <Undefine></Undefine>
-              <IncludePath>../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\Bsp\Inc</IncludePath>
+              <IncludePath>../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\Bsp\Inc;..\Drivers\Devs\Inc;..\Oled_Display;..\App\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -548,11 +548,6 @@
               <FilePath>..\Bsp\Src\iwdg.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Bsp\Src\main.c</FilePath>
-            </File>
-            <File>
               <FileName>spi.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Bsp\Src\spi.c</FilePath>
@@ -576,6 +571,36 @@
               <FileName>bsp_config.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Bsp\Src\bsp_config.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Devs</GroupName>
+          <Files>
+            <File>
+              <FileName>oled_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\Devs\Src\oled_driver.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Oled_Display</GroupName>
+          <Files>
+            <File>
+              <FileName>oled_discode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Oled_Display\oled_discode.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>App</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\App\Src\main.c</FilePath>
             </File>
           </Files>
         </Group>
