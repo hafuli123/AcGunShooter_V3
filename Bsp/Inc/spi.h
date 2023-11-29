@@ -35,7 +35,10 @@ extern "C" {
 extern SPI_HandleTypeDef hspi1;
 
 /* USER CODE BEGIN Private defines */
+#define SEL_SPI1	0
 
+#define SPI1_CS_PORT	GPIOA
+#define SPI1_CS_PIN		GPIO_PIN_4
 /* USER CODE END Private defines */
 
 void MX_SPI1_Init(void);

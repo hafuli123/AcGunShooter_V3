@@ -582,6 +582,16 @@
               <FileType>1</FileType>
               <FilePath>..\Drivers\Devs\Src\oled_driver.c</FilePath>
             </File>
+            <File>
+              <FileName>gpio_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\Devs\Src\gpio_driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>flash_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\Devs\Src\flash_driver.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

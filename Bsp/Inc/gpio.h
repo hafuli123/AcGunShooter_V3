@@ -63,6 +63,7 @@ extern "C" {
 #define BTN_PWR_I_GPIO_Port GPIOB
 #define BTN_USER_I_Pin GPIO_PIN_9
 #define BTN_USER_I_GPIO_Port GPIOB
+
 /* USER CODE END Private defines */
 
 void MX_GPIO_Init(void);
